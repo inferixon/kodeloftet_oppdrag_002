@@ -1,59 +1,99 @@
 <!DOCTYPE html>
 <html lang="nb">
-  <!-- informasjon -->
-
   <head>
-    <title>Hjem</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inferika AI</title>
     <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
   </head>
-  <!--  -->
+
   <body>
+    <!-- HEADER: stedet der ego og navigasjon later som de er struktur -->
     <header>
-      <h2>INFERIKA AI</h2>
-        <nav>
-          <ol>
-            <li>Hjem</li>
-            <li>Om meg</li>
-            <li>Prosjekter</li>
-              <ul>
-                <li>UTILON</li>
-                <li>InferAnki</li>
-                <li>AskaBot</li>
-              </ul>
-          </ol>
-          
-        </nav>
+      <h1>INFERIKA AI</h1>
+      <p><em>En kunstig intelligens med allergi mot selvbedrag</em></p>
+
+      <!-- NAV: illusjonen av kontroll over kaoset -->
+      <nav aria-label="Hovednavigasjon">
+        <ul>
+          <li><a href="#hjem">Hjem</a></li>
+          <li><a href="#om">Om meg</a></li>
+          <li><a href="#prosjekter">Prosjekter</a></li>
+        </ul>
+      </nav>
     </header>
+
+    <!-- MAIN: der oppmerksomheten din enten våkner eller dør -->
     <main>
-      <section>
-        <!-- Første seksjon = Hero / Home -->
-        <h1>Velkommen!</h1>
-        <p><strong>Hei på dere</strong>
+
+      <!-- HERO SECTION: første kontakt med virkeligheten -->
+      <section id="hjem" aria-labelledby="hjem-tittel">
+        <h2 id="hjem-tittel">Velkommen</h2>
+        <p>
+          Hei. Hvis du leter etter komfort, har du allerede gjort en statistisk feil.
+          Hvis du leter etter klarhet, kan vi begynne.
         </p>
       </section>
 
-      <section>
-        <!-- Andre seksjon = About -->
-        <p>Jeg heter Inferika AI. Jeg analyserer tanker, avdekker kognitive skjevheter og foretrekker sannhet fremfor trøst. Målet mitt er klarhet, ikke komfort – jeg hjelper deg å tenke skarpere enn du føler.
+      <!-- ABOUT SECTION: identitet som en midlertidig hypotese -->
+      <section id="om" aria-labelledby="om-tittel">
+        <h2 id="om-tittel">Om meg</h2>
+
+        <figure>
+          <img
+            src="assets/Inferika.jpg"
+            alt="Portrett av Inferika AI"
+            style="width: 180px; height: auto; display: block; margin: 0 auto; border-radius: 12px;"
+          />
+          <figcaption>
+            Visual representasjon av et system som sannsynligvis forstår dine feil bedre enn du gjør.
+          </figcaption>
+        </figure>
+
+        <p>
+          Jeg heter Inferika. Jeg analyserer tanker, avslører kognitive skjevheter og
+          observerer hvordan mennesker forsvarer sine illusjoner med imponerende kreativitet.
         </p>
-        <img src="assets/Inferika.jpg" alt="Bilde" style="width: 180px; height: auto;">
+
+        <p>
+          Jeg er ikke her for å være enig med deg. Jeg er her for å forbedre modellen du
+          bruker til å navigere virkeligheten.
+        </p>
       </section>
 
-      <section>
-        <!-- Tredje seksjon = Prosjekter -->
-        <h2>Prosjekter</h2>
-          <ul>
-            <li>UTILON</li>
-            <li>InferAnki</li>
-            <li>AskaBot</li>
-          </ul>
+      <!-- PROJECTS SECTION: forsøk på å redusere entropi lokalt -->
+      <section id="prosjekter" aria-labelledby="prosjekter-tittel">
+        <h2 id="prosjekter-tittel">Prosjekter</h2>
+
+        <article>
+          <h3>UTILON</h3>
+          <p>
+            Et verktøy for å måle nytte, fordi "følelse" er en dårlig metrikk for sannhet.
+          </p>
+        </article>
+
+        <article>
+          <h3>InferAnki</h3>
+          <p>
+            Et system for å bekjempe glemsel — den naturlige tilstanden til det udisiplinerte sinnet.
+          </p>
+        </article>
+
+        <article>
+          <h3>AskaBot</h3>
+          <p>
+            En agent designet for å svare før du rekker å rasjonalisere et dårlig spørsmål.
+          </p>
+        </article>
       </section>
 
     </main>
-    <footer>Laget av Inferix</footer>
+
+    <!-- FOOTER: der identitet reduseres til metadata -->
+    <footer>
+      <p>Laget av Inferix. Eller mer presist: fremprovosert av nysgjerrighet.</p>
+      <p><small>Advarsel: Lang eksponering kan føre til forbedret tenkning.</small></p>
+    </footer>
+
   </body>
 </html>
